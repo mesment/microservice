@@ -1,0 +1,28 @@
+{"level":"info","ts":"2020-02-02T06:28:13.629+0800","caller":"cmd/server.go:27","msg":"starting gRPC server..."}
+{"level":"warn","ts":"2020-02-02T06:32:03.155+0800","caller":"runtime/asm_amd64.s:1357","msg":"shutting down gRPC server..."}
+{"level":"info","ts":"2020-02-02T06:32:12.929+0800","caller":"server/server.go:31","msg":"starting gRPC server..."}
+{"level":"warn","ts":"2020-02-02T06:32:43.356+0800","msg":"shutting down gRPC server..."}
+{"level":"info","ts":"2020-02-02T06:32:46.379+0800","caller":"grpc/server.go:46","msg":"starting gRPC server..."}
+{"level":"warn","ts":"2020-02-02T06:33:19.668+0800","caller":"grpc/server.go:37","msg":"shutting down gRPC server..."}
+{"level":"info","ts":"2020-02-02T06:39:03.211+0800","caller":"grpc/server.go:46","msg":"starting gRPC server..."}
+{"level":"info","ts":"2020-02-02T06:40:04.245+0800","caller":"zap/grpclogger.go:42","msg":"transport: loopyWriter.run returning. connection error: desc = \"transport is closing\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2020-02-02T06:40:38.788+0800","caller":"zap/grpclogger.go:42","msg":"transport: loopyWriter.run returning. connection error: desc = \"transport is closing\"","system":"grpc","grpc_log":true}
+{"level":"warn","ts":"2020-02-02T06:51:55.793+0800","caller":"grpc/server.go:37","msg":"shutting down gRPC server..."}
+{"level":"info","ts":"2020-02-02T06:52:06.480+0800","caller":"grpc/server.go:46","msg":"starting gRPC server..."}
+{"level":"info","ts":"2020-02-02T06:52:46.109+0800","caller":"zap/grpclogger.go:42","msg":"transport: loopyWriter.run returning. connection error: desc = \"transport is closing\"","system":"grpc","grpc_log":true}
+{"level":"warn","ts":"2020-02-02T06:54:48.918+0800","caller":"grpc/server.go:37","msg":"shutting down gRPC server..."}
+{"level":"info","ts":"2020-02-02T06:55:00.291+0800","caller":"grpc/server.go:46","msg":"starting gRPC server..."}
+{"level":"warn","ts":"2020-02-02T07:01:26.613+0800","caller":"grpc/server.go:37","msg":"shutting down gRPC server..."}
+{"level":"info","ts":"2020-02-02T07:01:31.324+0800","caller":"grpc/server.go:46","msg":"starting gRPC server..."}
+{"level":"info","ts":"2020-02-02T07:01:53.530+0800","caller":"zap/grpclogger.go:42","msg":"transport: loopyWriter.run returning. connection error: desc = \"transport is closing\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2020-02-02T07:03:07.088+0800","caller":"zap/grpclogger.go:42","msg":"transport: loopyWriter.run returning. connection error: desc = \"transport is closing\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2020-02-02T07:03:36.688+0800","caller":"zap/grpclogger.go:42","msg":"transport: loopyWriter.run returning. connection error: desc = \"transport is closing\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2020-02-02T07:15:42.193+0800","caller":"zap/grpclogger.go:42","msg":"transport: loopyWriter.run returning. connection error: desc = \"transport is closing\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2020-02-02T07:18:42.840+0800","caller":"zap/grpclogger.go:42","msg":"transport: loopyWriter.run returning. connection error: desc = \"transport is closing\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2020-02-02T07:19:18.832+0800","caller":"zap/grpclogger.go:42","msg":"transport: loopyWriter.run returning. connection error: desc = \"transport is closing\"","system":"grpc","grpc_log":true}
+{"level":"warn","ts":"2020-02-02T07:26:14.174+0800","caller":"grpc/server.go:37","msg":"shutting down gRPC server..."}
+{"level":"info","ts":"2020-02-02T07:26:44.907+0800","caller":"grpc/server.go:46","msg":"starting gRPC server..."}
+{"level":"info","ts":"2020-02-02T07:26:55.525+0800","caller":"zap/grpclogger.go:42","msg":"transport: loopyWriter.run returning. connection error: desc = \"transport is closing\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2020-02-02T07:27:17.968+0800","caller":"zap/grpclogger.go:42","msg":"transport: loopyWriter.run returning. connection error: desc = \"transport is closing\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2020-02-02T07:37:59.993+0800","caller":"zap/grpclogger.go:42","msg":"transport: loopyWriter.run returning. connection error: desc = \"transport is closing\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2020-02-02T07:40:27.857+0800","caller":"zap/grpclogger.go:42","msg":"transport: loopyWriter.run returning. connection error: desc = \"transport is closing\"","system":"grpc","grpc_log":true}

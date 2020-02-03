@@ -1,0 +1,21 @@
+title="userservice"
+
+[server]
+version="1.0.0"
+grpcPort="9988"
+
+
+[log]
+#debug, info, warn, error, dpanic, panic, fatal
+loglevel="info"
+#Print time format for logger e.g. 2006-01-02T15:04:05Z07:00
+logTimeFormat='2006-01-02T15:04:05Z07:00'
+logFile="./logfiles/userservice.log"
+
+
+[mysql]
+mysqlIp="127.0.0.1"
+mysqlPort=3306
+mysqlUsr="root"
+mysqlPwd="9876543210"
+dbName="users"

@@ -1,0 +1,48 @@
+syntax = "proto3";
+package v1;
+
+message LoginRequest {
+    string Login = 1;
+    string Password = 2;
+}
+
+message SignupRequest {
+    string UserName = 1;
+    string Email = 2;
+    string Password = 3;
+}
+
+message UserNameUsedRequest{
+    string UserName = 1;
+}
+message UserNameUsedResponse {
+    bool Used = 1;
+}
+
+message EmailUsedRequest{
+    string Email = 1;
+}
+message EmailUsedResponse {
+    bool Used = 1;
+}
+
+message AuthUserRequest {
+    string Token = 1;
+}
+message AuthUserResponse {
+    string ID = 1;
+    string UserName = 2;
+    string Email = 3;
+}
+
+message AuthResponse {
+    string Token = 1;
+}
+
+service AuthService {
+    rpc Login(LoginRequest) returns (AuthResponse);
+    rpc Signup(SignupRequest) returns (AuthResponse);
+    rpc UserNameUsed(UserNameUsedRequest) returns (UserNameUsedResponse);
+    rpc EmailUsed(EmailUsedRequest) returns (EmailUsedResponse);
+    rpc AuthUser(AuthUserRequest) returns (AuthUserResponse);
+}

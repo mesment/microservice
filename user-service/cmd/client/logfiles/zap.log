@@ -1,0 +1,20 @@
+{"level":"info","ts":"2020-02-02T07:18:42.760+0800","caller":"client/main.go:44","msg":"Signup error: rpc error: code = Unknown desc = Username is used"}
+{"level":"info","ts":"2020-02-02T07:18:42.760+0800","caller":"client/main.go:46","msg":"Signup result: <<nil>>\n"}
+{"level":"fatal","ts":"2020-02-02T07:18:42.839+0800","caller":"client/main.go:54","msg":"Login error: rpc error: code = Unknown desc = crypto/bcrypt: hashedPassword is not the hash of the given password"}
+{"level":"info","ts":"2020-02-02T07:19:18.751+0800","caller":"client/main.go:44","msg":"Signup error: rpc error: code = Unknown desc = Username is used"}
+{"level":"info","ts":"2020-02-02T07:19:18.752+0800","caller":"client/main.go:46","msg":"Signup result: <<nil>>\n"}
+{"level":"info","ts":"2020-02-02T07:19:18.832+0800","caller":"client/main.go:56","msg":"Login result: <Token:\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyIjp7IklEIjoiOWM5YjYyYTQtYjk2Ny00MDBlLThjMjUtNDMxNDZiMDRmNTViIiwiVXNlck5hbWUiOiJtZXNtZW50IiwiUGFzc3dvcmQiOiIkMmEkMTAkUDZyQ1VSUGxRei9tbVdXSVJBTlh2LktxbWxDMHdOU05hOTRPWXFrYlcwbm83bk5qRy9aVkMiLCJFbWFpbCI6InZhbmxleTIwMTJAMTYzLmNvbSIsImNyZWF0ZV9hdCI6IjIwMjAtMDItMDJUMDc6MDE6NTQrMDg6MDAiLCJ1cGRhdGVfYXQiOiIyMDIwLTAyLTAyVDA3OjAxOjU0KzA4OjAwIiwiRGVsZXRlZEF0IjpudWxsfSwiZXhwIjoxNTgwODU4MzU4LCJpc3MiOiJ1c2VyLXNlcnZpY2UudXNlciJ9.r0rwlVIahw8oIlyr8Bs-nLjghA5l8RxJzBQqFI8fob4\" >\n"}
+{"level":"info","ts":"2020-02-02T07:26:55.445+0800","caller":"client/main.go:44","msg":"Signup error: rpc error: code = Unknown desc = UserName is already exist"}
+{"level":"info","ts":"2020-02-02T07:26:55.445+0800","caller":"client/main.go:46","msg":"Signup result: <<nil>>\n"}
+{"level":"info","ts":"2020-02-02T07:26:55.523+0800","caller":"client/main.go:56","msg":"Login result: <Token:\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyIjp7IklEIjoiOWM5YjYyYTQtYjk2Ny00MDBlLThjMjUtNDMxNDZiMDRmNTViIiwiVXNlck5hbWUiOiJtZXNtZW50IiwiUGFzc3dvcmQiOiIkMmEkMTAkUDZyQ1VSUGxRei9tbVdXSVJBTlh2LktxbWxDMHdOU05hOTRPWXFrYlcwbm83bk5qRy9aVkMiLCJFbWFpbCI6InZhbmxleTIwMTJAMTYzLmNvbSIsImNyZWF0ZV9hdCI6IjIwMjAtMDItMDJUMDc6MDE6NTQrMDg6MDAiLCJ1cGRhdGVfYXQiOiIyMDIwLTAyLTAyVDA3OjAxOjU0KzA4OjAwIiwiRGVsZXRlZEF0IjpudWxsfSwiZXhwIjoxNTgwODU4ODE1LCJpc3MiOiJ1c2VyLXNlcnZpY2UudXNlciJ9.sXUnujm2ndgoblKobFqYzaoV57R-mQOw0dIxI2-SCCY\" >\n"}
+{"level":"info","ts":"2020-02-02T07:27:17.888+0800","caller":"client/main.go:44","msg":"Signup error: rpc error: code = Unknown desc = UserName is already exist"}
+{"level":"info","ts":"2020-02-02T07:27:17.888+0800","caller":"client/main.go:46","msg":"Signup result: <<nil>>\n"}
+{"level":"fatal","ts":"2020-02-02T07:27:17.967+0800","caller":"client/main.go:54","msg":"Login error: rpc error: code = Unknown desc = password is wrong"}
+{"level":"info","ts":"2020-02-02T07:37:59.913+0800","caller":"client/main.go:44","msg":"Signup error: rpc error: code = Unknown desc = UserName is already exist"}
+{"level":"info","ts":"2020-02-02T07:37:59.914+0800","caller":"client/main.go:46","msg":"Signup result: <<nil>>\n"}
+{"level":"fatal","ts":"2020-02-02T07:37:59.992+0800","caller":"client/main.go:54","msg":"Login error: rpc error: code = Unknown desc = password is wrong"}
+{"level":"error","ts":"2020-02-02T07:40:27.772+0800","caller":"client/main.go:44","msg":"Signup error: rpc error: code = Unknown desc = UserName is already exist"}
+{"level":"info","ts":"2020-02-02T07:40:27.773+0800","caller":"client/main.go:46","msg":"Signup result: <<nil>>\n"}
+{"level":"error","ts":"2020-02-02T07:40:27.855+0800","caller":"client/main.go:54","msg":"Login error: rpc error: code = Unknown desc = password is wrong"}
+{"level":"info","ts":"2020-02-02T07:40:27.855+0800","caller":"client/main.go:56","msg":"Login result: <<nil>>\n"}
+{"level":"info","ts":"2020-02-02T07:40:27.856+0800","caller":"client/main.go:66","msg":"AuthUser result: <ID:\"9c9b62a4-b967-400e-8c25-43146b04f55b\" UserName:\"mesment\" Email:\"vanley2012@163.com\" >\n"}
